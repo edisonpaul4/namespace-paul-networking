@@ -3,7 +3,7 @@ kind: NetworkPolicy
 metadata:
   name: microservicio-policy
   namespace: paul
-specs:
+spec:
   podSelector:
     matchLabels:
       app: microservicio
